@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "zone_1",
+        "name": "North District",
+        "risk_level": "high",
+        "risk_score": 75,
+        "risk_label": "High",
+        "color": "#ff6b6b",
+        "last_updated": "2026-09-10T10:00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.62, 27.35],
+            [88.67, 27.35],
+            [88.67, 27.30],
+            [88.62, 27.30],
+            [88.62, 27.35]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "zone_2",
+        "name": "East District",
+        "risk_level": "moderate",
+        "risk_score": 50,
+        "risk_label": "Moderate",
+        "color": "#ffd93d",
+        "last_updated": "2026-09-10T10:00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.60, 27.33],
+            [88.65, 27.33],
+            [88.65, 27.28],
+            [88.60, 27.28],
+            [88.60, 27.33]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "zone_3",
+        "name": "South District",
+        "risk_level": "critical",
+        "risk_score": 92,
+        "risk_label": "Critical",
+        "color": "#e94560",
+        "last_updated": "2026-09-10T10:00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.56, 27.31],
+            [88.61, 27.31],
+            [88.61, 27.26],
+            [88.56, 27.26],
+            [88.56, 27.31]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "zone_4",
+        "name": "West District",
+        "risk_level": "low",
+        "risk_score": 25,
+        "risk_label": "Low",
+        "color": "#6bcb77",
+        "last_updated": "2026-09-10T10:00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.52, 27.37],
+            [88.57, 27.37],
+            [88.57, 27.32],
+            [88.52, 27.32],
+            [88.52, 27.37]
+          ]
+        ]
+      }
+    }
+  ]
+}

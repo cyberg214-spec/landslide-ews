@@ -1,0 +1,37 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pdb
+.env
+*.db
+
+# Node
+node_modules/
+dist/
+.vite/
+package-lock.json
+
+# Backend uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ML Models (large binaries)
+ml/models/*.pkl
+
+# Data (large CSV)
+data/synthetic_sensors.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
